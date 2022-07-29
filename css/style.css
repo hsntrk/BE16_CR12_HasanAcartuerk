@@ -1,0 +1,63 @@
+* {
+  font-family: "Courgette", cursive;
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+footer {
+  padding: 4vh;
+}
+
+.manageCard {
+  margin: auto;
+}
+
+.img-thumbnail {
+  width: 70px !important;
+  height: 70px !important;
+}
+
+td {
+  text-align: left;
+  vertical-align: middle;
+}
+
+tr {
+  text-align: center;
+}
+
+th {
+  text-align: left;
+}
+
+.userImage {
+  width: 200px;
+  height: auto;
+}
+
+fieldset {
+  margin: auto;
+  margin-top: 100px;
+  width: 60%;
+}
+
+body {
+  background-color: #b3c0a4;
+}
+
+.bgcard {
+  background-color: #eaefd3;
+}
+
+.btn-secondary {
+  background-color: #dcc48e;
+}
+
+.bgtitle {
+  background-color: #505168;
+}
