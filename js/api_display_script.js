@@ -15,6 +15,10 @@ function priceReduction() {
       let obj = properties.data.valueOf((o) => o.price_reduction === "Yes");
       console.log(obj);
       for (const property of properties.data) {
+        if (property.price_reduction === "No") {
+          // console.log(property.price_reduction);
+          continue;
+        }
         content.innerHTML += `
         <div class='col-xl-3 col-lg-4 col-md-6 mb-4'>
             <div class='bg-wight rounded shadow-lg p-3 bgcard' style='mh-100'>
