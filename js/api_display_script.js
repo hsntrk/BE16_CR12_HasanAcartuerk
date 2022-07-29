@@ -12,8 +12,8 @@ function priceReduction() {
       const properties = JSON.parse(ajReq.responseText);
       console.log(properties);
       content.innerHTML = "";
-      let obj = properties.data.valueOf((o) => o.price_reduction === "Yes");
-      console.log(obj);
+      // let obj = properties.data.valueOf((o) => o.price_reduction === "Yes");
+      // console.log(obj);
       for (const property of properties.data) {
         if (property.price_reduction === "No") {
           // console.log(property.price_reduction);
