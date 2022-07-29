@@ -30,7 +30,7 @@ $row = mysqli_fetch_assoc($result);
     <title>Details</title>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
 
     <!-- navbar -->
     <?php require_once "components/navbar.php" ?>
@@ -38,18 +38,17 @@ $row = mysqli_fetch_assoc($result);
     <!-- media library from php -->
     <div class="manageCard w-75 mt-3">
 
-
-        <p class='h2 text-center bgtitle bg-gradient text-white p-4'>Details of the " <?= $row["name"] ?> "</p>
-
         <div class="card mb-3 shadow-lg mt-3 bgcard" style="max-width: 80vw">
             <div class="row g-0">
                 <div class="col-md-4">
 
-                    <img src='pictures/<?= $row["picture"] ?>' class="img-fluid" style="height: 100%;" alt="...">
+                    <img src='pictures/<?= $row["picture"] ?>' class="img-fluid rounded" style="height: 100%;" alt="...">
                 </div>
                 <div class="col-md-8">
                     <div class="card-body">
-                        <h2 class="card-title"><?= $row["name"] ?></h2>
+                        <div class="bgtitle bg-gradient text-white">
+                            <h2 class="card-title p-4">Details of " <?= $row["name"] ?>"</h2>
+                        </div>
                         <hr>
                         <p class="card-text">
                             <strong>Description: </strong> <?= $row["description"] ?>
@@ -74,7 +73,7 @@ $row = mysqli_fetch_assoc($result);
                         </p>
                     </div>
                 </div>
-                <div id="map" style="height: 35vh;"></div>
+                <div id="map" style="height: 30vh; width: 100vw;" class="border border-wight"></div>
             </div>
         </div>
 

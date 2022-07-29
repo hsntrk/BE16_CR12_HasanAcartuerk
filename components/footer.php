@@ -1,5 +1,5 @@
     <!-- social media icons -->
-    <section class="container-fluid pb-1 bg-secondary text-light">
+    <section class="container-fluid pb-1 bg-secondary text-light mt-auto">
         <div class="container">
             <div class="d-flex justify-content-center align-items-center">
                 <div class="m-1 p-1 d-lg-flex justify-content-center">

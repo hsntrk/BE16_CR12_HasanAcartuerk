@@ -56,7 +56,7 @@ mysqli_close(($connect));
     <title>Real Estate Agency</title>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
 
     <!-- navbar -->
     <?php require_once "components/navbar.php" ?>

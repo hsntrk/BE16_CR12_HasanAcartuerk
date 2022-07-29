@@ -62,3 +62,23 @@ body {
 .bgtitle {
   background-color: #505168;
 }
+
+/* navbar hover-effect */
+
+.navbar .navbar-nav .nav-link:hover {
+  background-color: #dcc48e;
+  color: #505168;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar .navbar-nav .nav-link {
+  padding: 1em;
+}
+
+.imagetag:hover {
+  background-color: #dcc48e;
+  color: #505168;
+}
