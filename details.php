@@ -77,8 +77,14 @@ $row = mysqli_fetch_assoc($result);
             </div>
         </div>
 
-        <a href="index.php" class="btn btn-outline-secondary btn-lg ps-4 pe-4 mb-5 mt-3 shadow-lg"><i class="fa-solid fa-backward"></i>&ensp; Back to the Properties Overview &ensp;
-        </a>
+        <div class="d-flex justify-content-between align-items-center">
+            <a href="index.php" class="btn btn-outline-secondary btn-lg ps-4 pe-4 mb-5 mt-3 shadow-lg"><i class="fa-solid fa-backward"></i>&nbsp; Back to Overview &nbsp;</a>
+            <div>
+                <a href="update.php?id=<?= $row['id'] ?>"><button class="btn btn-outline-primary  btn-md ps-4 pe-4 mb-5 mt-3 shadow-lg" type="button">Edit</button></a>
+                <a href="delete.php?id=<?= $row["id"] ?>"><button class="btn btn-outline-danger  btn-md ps-4 pe-4 mb-5 mt-3 shadow-lg" type="button">Delete</button></a>
+            </div>
+        </div>
+
     </div>
 
 
@@ -109,7 +115,7 @@ $row = mysqli_fetch_assoc($result);
     </script>
 
     <!-- google api -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtjaD-saUZQ47PbxigOg25cvuO6_SuX3M&callback=initMap" async defer></script>
+    <script src=" https://maps.googleapis.com/maps/api/js?key=AIzaSyBtjaD-saUZQ47PbxigOg25cvuO6_SuX3M&callback=initMap" async defer></script>
 
     <!-- my script js -->
     <script src="js/script.js"></script>

@@ -11,7 +11,7 @@
         <div class="collapse navbar-collapse justify-content-between align-items-center" id="navmenu">
             <ul class="navbar-nav navbar-dark mr-auto d-lg-flex justify-content-around align-items-center menu">
                 <li class="nav-item active"><a href="index.php" class="nav-link ">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link ">Coming Soon</a></li>
+                <li class="nav-item"><a href="create.php" class="nav-link ">Create Property</a></li>
                 <li class="nav-item"><a href="oportunity.html" class="nav-link">Unique oportunity Properties</a></li>
                 <li class="nav-item"><a href="displayAll.php" class="nav-link ">Display API</a></li>
 
