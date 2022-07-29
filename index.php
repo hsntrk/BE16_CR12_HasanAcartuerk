@@ -11,7 +11,7 @@ if (mysqli_num_rows($result) > 0) {
         <div class='bg-wight rounded shadow-lg p-3 bgcard' style='mh-100'>
             <img src='pictures/" . $row['picture'] . "' class='card-img-top' alt='...'>
             <div class='bgtitle'>
-                <h3 class='card-title text-light text-center p-2 mb-2'>" . $row['name'] . "</h3>
+                <h5 class='card-title text-light text-center p-2 mb-2'>" . $row['name'] . "</h5>
             </div>
             <div class='card-body'>
                 <p class='card-text m-0'><strong>Size: </strong> " . $row['size'] . "</p>
@@ -20,7 +20,7 @@ if (mysqli_num_rows($result) > 0) {
                 <p class='card-text m-0'><strong>City: </strong> " . $row['city'] . "</p>
                 <p class='card-text m-0'><strong>Price: </strong>" . $row['price'] . "</p>
                 <p><a class='card-text position-relative bottom-0 d-flex justify-content-center mt-4' href='details.php?id=" . $row['id'] . "'>
-                <button class='btn btn-secondary btn-sm text-light' type='button'>For more Information</button></a></p>
+                <button class='btn btn-outline-secondary btn-sm' type='button'>For more Information</button></a></p>
             </div>
         </div>
     </div>";

@@ -54,7 +54,8 @@ body {
   background-color: #eaefd3;
 }
 
-.btn-secondary {
+.btn-secondary,
+.btn-outline-secondary {
   background-color: #dcc48e;
 }
 
