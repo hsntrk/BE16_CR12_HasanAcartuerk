@@ -6,7 +6,7 @@ btn.addEventListener("click", priceReduction, false);
 function priceReduction() {
   const ajReq = new XMLHttpRequest();
   let content = document.getElementById("contentpro");
-  ajReq.open("GET", "../displayAll.php", true);
+  ajReq.open("GET", "displayAll.php", true);
   ajReq.onload = function () {
     if (this.status == 200) {
       const properties = JSON.parse(ajReq.responseText);
