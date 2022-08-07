@@ -22,7 +22,7 @@ function priceReduction() {
         content.innerHTML += `
         <div class='col-xl-3 col-lg-4 col-md-6 mb-4'>
             <div class='bg-wight rounded shadow-lg p-3 bgcard' style='mh-100'>
-                <img src='../pictures/${property.picture}' class='card-img-top' alt='...'>
+                <img src='./pictures/${property.picture}' class='card-img-top' alt='...'>
                 <div class='bgtitle'>
                     <h5 class='card-title text-light text-center p-2 mb-2'>${property.name}</h5>
                 </div>
